@@ -68,3 +68,25 @@ local Window = Rayfield:CreateWindow({
         end,
             
     })
+    
+            local Tab = Window:CreateTab("A Menacing Timeline", 4483362458) -- Title, Image
+    local Section = Tab:CreateSection("Script press button")
+
+    local Button = Tab:CreateButton({
+        Name = "Dragon Blox Ultimate 1",
+        Callback = function()
+            loadstring(game:HttpGet(("https://raw.githubusercontent.com/LegoDuper/AMTFarm/main/AMTGUI"),true))()
+        end,
+            
+    })
+
+            local Tab = Window:CreateTab("Forgotten Memories", 4483362458) -- Title, Image
+    local Section = Tab:CreateSection("Script press button")
+
+    local Button = Tab:CreateButton({
+        Name = "Dragon Blox Ultimate 1",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/lolpoppyus/Roblox-Lua/master/ForgottenMemories.lua"))()
+        end,
+            
+    })
