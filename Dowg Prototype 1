@@ -1,0 +1,70 @@
+
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+
+local Window = Rayfield:CreateWindow({
+	Name = "Dowg Gaming",
+	LoadingTitle = "Dowg Gaming Scripts",
+	LoadingSubtitle = "by Dowg Gaming",
+	ConfigurationSaving = {
+		Enabled = true,
+		FolderName = nil, -- Create a custom folder for your hub/game
+		FileName = "Dowg Gaming"
+	},
+        Discord = {
+        	Enabled = false,
+        	Invite = "sjtegtAXHu", -- The Discord invite code, do not include discord.gg/
+        	RememberJoins = false -- Set this to false to make them join the discord every time they load it up
+        },
+	KeySystem = false, -- Set this to true to use our key system
+	KeySettings = {
+		Title = "Dowg Gaming",
+		Subtitle = "Key System",
+		Note = "Join the discord (discord.gg/sjtegtAXHu)",
+		FileName = "Dowg gaming",
+		SaveKey = false,
+		GrabKeyFromSite = true, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+		Key = "Dowg"
+	}
+})
+
+    local Tab = Window:CreateTab("Reaper 2", 4483362458) -- Title, Image
+    local Section = Tab:CreateSection("Script press button")
+
+    local Button = Tab:CreateButton({
+        Name = "Reaper 2",
+        Callback = function()
+            loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/Reaper2'),true))()
+        end,
+            
+    })
+    
+    local Tab = Window:CreateTab("Kaizen", 4483362458) -- Title, Image
+    local Section = Tab:CreateSection("Script press button")
+
+    local Button = Tab:CreateButton({
+        Name = "Kaizen",
+        Callback = function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/oujaboard/cuddly-waddle/main/Kaizen'))()
+        end,
+            
+    })
+        local Tab = Window:CreateTab("World Zero", 4483362458) -- Title, Image
+    local Section = Tab:CreateSection("Script press button")
+
+    local Button = Tab:CreateButton({
+        Name = "World Zero",
+        Callback = function()
+            loadstring(game:HttpGet"https://thedragonslayer2.github.io/AutoExec.html")()
+        end,
+            
+    })
+            local Tab = Window:CreateTab("Dragon Blox Ultimate", 4483362458) -- Title, Image
+    local Section = Tab:CreateSection("Script press button")
+
+    local Button = Tab:CreateButton({
+        Name = "Dragon Blox Ultimate 1",
+        Callback = function()
+            loadstring(game:HttpGet("https://scriptblox.com/raw/Dragon-Blox-Ultimate-GUI-5571", true))()
+        end,
+            
+    })
