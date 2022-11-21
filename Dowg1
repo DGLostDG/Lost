@@ -90,3 +90,24 @@ local Window = Rayfield:CreateWindow({
         end,
             
     })
+                local Tab = Window:CreateTab("Ultra Unfair", 4483362458) -- Title, Image
+    local Section = Tab:CreateSection("Script press button")
+
+    local Button = Tab:CreateButton({
+        Name = "Ultra Unfair",
+        Callback = function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/Upscalefanatic3/Unfair-GUI/main/Gui'))()
+        end,
+            
+    })
+    
+                local Tab = Window:CreateTab("Brookhaven", 4483362458) -- Title, Image
+    local Section = Tab:CreateSection("Script press button")
+
+    local Button = Tab:CreateButton({
+        Name = "Brookhaven",
+        Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+        end,
+            
+    })
