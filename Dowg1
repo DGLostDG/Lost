@@ -73,7 +73,7 @@ local Window = Rayfield:CreateWindow({
     local Section = Tab:CreateSection("Script press button")
 
     local Button = Tab:CreateButton({
-        Name = "Dragon Blox Ultimate 1",
+        Name = "A Meanacing Timeline 1",
         Callback = function()
             loadstring(game:HttpGet(("https://raw.githubusercontent.com/LegoDuper/AMTFarm/main/AMTGUI"),true))()
         end,
@@ -84,7 +84,7 @@ local Window = Rayfield:CreateWindow({
     local Section = Tab:CreateSection("Script press button")
 
     local Button = Tab:CreateButton({
-        Name = "Dragon Blox Ultimate 1",
+        Name = "Forgotten Memories 1",
         Callback = function()
             loadstring(game:HttpGet("https://raw.githubusercontent.com/lolpoppyus/Roblox-Lua/master/ForgottenMemories.lua"))()
         end,
