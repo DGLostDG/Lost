@@ -125,7 +125,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/LioK251/RbScripts/mai
     local Section = Tab:CreateSection("Script press button")
 
     local Button = Tab:CreateButton({
-        Name = Blue Gui",
+        Name = "Blue Gui",
         Callback = function()
             loadstring(game:HttpGet('https://www.6footscripts.com/Scripts/6FootHub/Hub.lua'))()
         end,
@@ -134,8 +134,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/LioK251/RbScripts/mai
         local Button = Tab:CreateButton({
         Name = "Lazy Hub",
         Callback = function()
-            repeat wait() until game:IsLoaded()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/LioK251/RbScripts/main/lazyhub.lua"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/LioK251/RbScripts/main/lazyhub.lua"))()
         end,
             
     })
@@ -143,6 +142,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/LioK251/RbScripts/mai
         Name = "Uzu Hub",
         Callback = function()
             repeat wait() until game:IsLoaded()
-loadstring(game:HttpGet("https://rawscripts.net/raw/loader_1038"))()
+            loadstring(game:HttpGet("https://rawscripts.net/raw/loader_1038"))()
         end,
             
+    })
